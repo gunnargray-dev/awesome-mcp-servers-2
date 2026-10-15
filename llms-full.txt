@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 295 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2089,6 +2089,18 @@ Analyze product analytics events and user behavior in Amplitude.
 - Official: yes
 - Tags: product-analytics, events, bi
 - Category: Data, Analytics, and BI
+
+### App Store & Google Play Review Intelligence
+
+Searches the Apple App Store and Google Play, pulls recent reviews, and returns top complaints with quotes, rating by app version, what got worse in the latest update, and iOS-vs-Android or competitor comparisons.
+
+- URL: https://github.com/gunnargray-dev/app-store-review-intelligence-mcp
+- Language: TypeScript
+- Provider: Parallel Studio
+- Official: no
+- Tags: app-store, google-play, app-reviews, product-research, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://parallelstudio--app-store-review-intelligence-mcp.apify.actor/mcp
 
 ### Basedash MCP Server
 

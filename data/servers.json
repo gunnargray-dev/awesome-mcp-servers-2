@@ -1864,6 +1864,25 @@
     "official": true
   },
   {
+    "name": "App Store & Google Play Review Intelligence",
+    "url": "https://github.com/gunnargray-dev/app-store-review-intelligence-mcp",
+    "description": "Searches the Apple App Store and Google Play, pulls recent reviews, and returns top complaints with quotes, rating by app version, what got worse in the latest update, and iOS-vs-Android or competitor comparisons.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Parallel Studio",
+    "tags": [
+      "app-store",
+      "google-play",
+      "app-reviews",
+      "product-research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://parallelstudio--app-store-review-intelligence-mcp.apify.actor/mcp"
+    }
+  },
+  {
     "name": "Bruin MCP",
     "url": "https://getbruin.com/docs/bruin/getting-started/bruin-mcp.html",
     "description": "Local MCP server in the open-source Bruin CLI that lets agents query databases, ingest data, compare tables, and build SQL and Python data pipelines.",
